@@ -3,52 +3,57 @@ body {
 }
 
 h1{
-	background-color: #009688;
 	color: white;
-	clear: both;
-	padding: 10px;
-	margin: 20px auto 20px auto;
-	border: solid 1px #ddd;
-	font-family: 'Rakkas', cursive;
+	font-size: 38pt;
+	text-align: center;
+	font-family: 'Bungee Shade', cursive;
+	line-height: 1.2;
 }
 
-p {
+h2, h3{
 	font-family: 'Lato', sans-serif;
 }
 
+p {
+	font-family: 'Roboto', sans-serif;
+}
+
 #wrapper {
-	max-width: 800px;
-	margin: 20px auto;
-}
-
-#instructions {
-	background-color: #009688;
-	clear:both;
-	padding: 15px;
+	max-width: 50%;
 	margin: auto;
-	margin-top: 20px;
-	border: solid 1px #ddd;
 }
 
-#guessingNumber {
+#instructions, #guessingNumber, #scoreboard, #result, #yts {
 	background-color: #009688;
 	float: left;
 	padding: 10px;
-	margin: 20px auto;
+	margin: 20px 20px 0px 0px;
 	border: solid 1px #ddd;
+	}
+
+#instructions {
+	width: 100%;
+}
+
+#guessingNumber {
+	width: 35%;
+	text-align: center;
+}
+
+#result {
+	width: 35%;
+	text-align: center;
 }
 
 #scoreboard {
-	background-color: #009688;
-	float: left;
-	padding: 15px 20px 10px 15px;
-	margin: 20px auto auto 20px;
-	border: solid 1px #ddd;	
+	line-height: 0.35;
 }
 
 #crystals {
-	margin: 20px;
+	margin: auto;
+	padding-top: 20px;
 	width: 50%;
+	clear: both;
 }
 
 .crystalImage {
@@ -58,15 +63,7 @@ p {
 .crystalImage:firstchild {
 	margin: auto;
 }
-
-#totalScore {
-	margin-bottom: 50px;
-	width: 33%;
-}
-
 #yts {
-	background: #009688;
-	margin: auto;
-	padding: 20px;
-	border: solid 1px #ddd
+	width: 100%;
+	text-align: center;
 }
